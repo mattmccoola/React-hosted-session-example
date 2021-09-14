@@ -5,7 +5,7 @@ import './card-demo.css';
 class checkoutApp extends Component {
 
     componentDidMount() {
-      const mpgsSessionScript = document.createElement("script");    mpgsSessionScript.async = true;    mpgsSessionScript.src = "https://mtf.gateway.mastercard.com/form/version/58/merchant/TESTMM_3DSEMV/session.js";    this.div.appendChild(mpgsSessionScript);
+      const mpgsSessionScript = document.createElement("script");    mpgsSessionScript.async = true;    mpgsSessionScript.src = "https://ap.gateway.mastercard.com/form/version/58/merchant/CBAEVECOM201/session.js";    this.div.appendChild(mpgsSessionScript);
       mpgsSessionScript.onload = function(){
         const PaymentSession = window.PaymentSession;
       
