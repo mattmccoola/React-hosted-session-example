@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import { Link } from 'react-router-dom';
 import './card-demo.css';
-
+ 
 class checkoutApp extends Component {
 
     componentDidMount() {
